@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0DC7B592-27E9-4950-9E54-52987DA765EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerNewsApi", "src\HackerNewsApi\HackerNewsApi.csproj", "{1B143DDC-7E64-4539-A809-014AD30A0FB2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{4D9E6B55-6764-4ED5-9D8F-7B77CA650B30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerNewsApi.Tests", "tests\HackerNewsApi.Tests\HackerNewsApi.Tests.csproj", "{1B99A17E-D644-4710-A11B-EB839CE69A7F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B143DDC-7E64-4539-A809-014AD30A0FB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B143DDC-7E64-4539-A809-014AD30A0FB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B143DDC-7E64-4539-A809-014AD30A0FB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B143DDC-7E64-4539-A809-014AD30A0FB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B99A17E-D644-4710-A11B-EB839CE69A7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B99A17E-D644-4710-A11B-EB839CE69A7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B99A17E-D644-4710-A11B-EB839CE69A7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B99A17E-D644-4710-A11B-EB839CE69A7F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1B143DDC-7E64-4539-A809-014AD30A0FB2} = {0DC7B592-27E9-4950-9E54-52987DA765EC}
+		{1B99A17E-D644-4710-A11B-EB839CE69A7F} = {4D9E6B55-6764-4ED5-9D8F-7B77CA650B30}
+	EndGlobalSection
+EndGlobal
